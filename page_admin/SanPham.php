@@ -27,7 +27,7 @@ if(isset($_GET["trang"]))
 
 $from="sanpham INNER JOIN loaisp ON sanpham.MaLoaiSP=loaisp.MaLoaiSP";
 
-$layDuLieu=phan_trang("*",$from,"",3,$trang,""); //phân trang với 10 sản phẩm
+$layDuLieu=phan_trang("*",$from,"",3,$trang,""); //phân trang với 10 sản phẩm// $tenCot,$tenBang,$dieuKien,$soLuongSP,$trang,$dieuKienTrang
 
 $truyvan_layDuLieu=$layDuLieu;
 
